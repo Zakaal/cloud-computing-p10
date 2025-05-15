@@ -1,121 +1,36 @@
-# Pertemuan 5 | Membangun Website Pribadi dengan Next.js (App Router), React, dan Tailwind CSS 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-|              | **Pemrograman Berbasis Framework 2025** |
-|--------------|------------------------------------|
-| **NIM**     | 2241720175                         |
-| **Nama**    | Mochammad Zakaro Al Fajri          |
-| **Kelas**   | TI - 3D                            |
+## Getting Started
 
-## Praktikum 1 : Persiapan Lingkungan
+First, run the development server:
 
-### Langkah 1 : Pastikan Node.js dan npm sudah terinstal di komputer Anda.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<img src="assets/p1/1.png" width="500">
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Langkah 2 : Buat direktori baru dan Inisialisasi proyek Next.js 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<img src="assets/p1/2.png" width="500">
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### Langkah 3 : Buka app/layout.tsx, tambahkan import './globals.css', dan modifikasi menjadi sebagai berikut:
+## Learn More
 
-<img src="assets/p1/3.png" width="700">
+To learn more about Next.js, take a look at the following resources:
 
-## Praktikum 2 : Membuat Halaman Website
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Langkah 1 : Buat file app/page.tsx sebagai halaman "Tentang Saya":
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-<img src="assets/p2/1.png" width="700">
+## Deploy on Vercel
 
-### Langkah 2 : Buat file app/projects/page.tsx sebagai halaman "Proyek"
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<img src="assets/p2/2.png" width="700">
-
-### Langkah 3 : Buat file app/essays/page.tsx sebagai halaman "Esai"
-
-<img src="assets/p2/3.png" width="700">
-
-### Langkah 4 : Buka browser dan akses : 
-
-- http://localhost:3000/ untuk halaman "Tentang Saya".
-
-    <img src="assets/p2/o1.png" width="650">
-
-- http://localhost:3000/projects untuk halaman "Proyek"
-
-    <img src="assets/p2/o2.png" width="650">
-
-- http://localhost:3000/essays untuk halaman "Esai".
-  
-    <img src="assets/p2/o3.png" width="650">
-
-## Praktikum 3 : Membuat Layout dan Navigasi
-
-**Layout digunakan untuk menyediakan struktur yang konsisten di seluruh halaman, seperti navbar dan footer.**
-
-### Langkah 1 : Buat direktori src/components 
-
-<img src="assets/p3/1.png" width="300">
-
-### Langkah 2 : Buat file src/components/Layout.tsx
-
-<img src="assets/p3/2.png" width="700">
-
-### Langkah 3 : Buat file src/components/Navbar.tsx
-
-<img src="assets/p3/3.png" width="700">
-
-### Langkah 4 : Buat file src/components/Footer.tsx
-
-<img src="assets/p3/4.png" width="700">
-
-### Langkah 5 : Update file app/layout.tsx untuk menggunakan layout
-
-<img src="assets/p3/5.png" width="700">
-
-### Langkah 6 : Update setiap halaman menambahkan metadata dengan generateMetadata
-
-<img src="assets/p3/5.png" width="700">
-
-### Langkah 7 : Output 
-
-<img src="assets/p3/7.png" width="700">
-
-## Praktikum 4 : Membuat Halaman Proyek dengan Grid Responsif
-
-**Halaman proyek akan menampilkan daftar proyek dalam bentuk grid yang responsif.**
-
-### Langkah 1 : Buat folder di public/images. Kemudian tambahkan dua image, lalu rename dengan nama project1.png dan project2.png
-
-<img src="assets/p4/1.png" width="300">
-
-### Langkah 2 : Modifikasi file app/projects/page.tsx
-
-- Tambahkan import next/image
-
-    <img src="assets/p4/2a.png" width="700">
-
-- Buat card project item
-
-    <img src="assets/p4/2b.png" width="700">
-
-- Modifikasi komponen project
-
-    <img src="assets/p4/2c.png" width="700">
-
-### Langkah 3 : Output 
-
-<img src="assets/p4/3.png" width="700">
-
-## Tugas 
-
-1. **Modifikasi halaman "Esai" dengan Grid daftar artikel yang telah ditulis.**
-
-    Jawab : 
-    
-    <img src="assets/s/1b.png" width="700">
-
-2. **Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik**
-
-    Jawab : 
-        
-    <img src="assets/s/2b.png" width="700">
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
