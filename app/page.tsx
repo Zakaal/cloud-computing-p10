@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import imageProfil from '../../public/images/profil.jpg';
+import imageProfil from '../public/images/profil.jpg';
 
 export const metadata: Metadata = {
   title: 'Tentang Saya',

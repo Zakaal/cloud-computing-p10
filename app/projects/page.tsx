@@ -1,5 +1,5 @@
-import Image1 from '../../../public/images/project1.png';
-import Image2 from '../../../public/images/project2.png';
+import Image1 from './project1.png';
+import Image2 from './project2.png';
 import Image, { StaticImageData } from 'next/image';
 
 type ProjectItemProps = {
